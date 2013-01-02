@@ -155,17 +155,31 @@ section.receipts > img {
 
 <!-- Begin expense row -->
 <tr class="expense">
-<td class=idx></td>
-<td align=center valign=top class="id"></td>
+<td class=idx><!-- Ignore this cell, it's not displayed. --></td>
+<td align=center valign=top class="id"><!-- This is auto-filled. --></td>
 	<td valign=top class="date"><time>2007-07-30</time></td>
-	<td valign=top class="expense-type">Accommodation</td>
+	<td valign=top class="expense-type">
+	  Accommodations
+	  <!-- Communications -->
+	  <!-- Entertainment -->
+	  <!-- Food -->
+	  <!-- Grant Disbursement -->
+	  <!-- Professional Development -->
+	  <!-- Supplies -->
+	  <!-- Travel -->
+	  <!-- Other -->
+	</td>
 	<td valign=top class="vendor-name">Berghotel Grosse Scheidegg</td>
 	<td valign=top class="description">
 	 Hotel Stay
+	 <!-- Include any receipts as <img> elements below. Attachments
+	      will automatically be generated for them. -->
 	 <img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/ReceiptSwiss.jpg">
 	</td>
 	<td valign=top class="currency-amount">54.50 CHF
 	  <div class="exchange-rate">1 CHF = $1.10<div></td>
+	<!-- This amount should always be a decimal number without a leading
+	     dollar sign. -->
 	<td valign=top class="us-amount">59.79</td>
 </tr>
 <!-- End expense row -->
@@ -185,6 +199,7 @@ section.receipts > img {
 	<td valign=top 29 3 >&nbsp;</td>
 	<td bgcolor=#ffff99  align=right valign=top 29 4 >TOTAL</td>
 	<td bgcolor=#ffff99  align=right valign=top 29 5 >&nbsp;</td>
+	<!-- The total is automatically calculated. -->
 	<td id="total" class="us-amount" bgcolor=#ffff99  valign=top 29 6 ></td>
 </tr><tr>
 <td class=idx>&nbsp;31&nbsp;</td>	<td valign=top 30 0 >PAYEE INFORMATION:</td>
