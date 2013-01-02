@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Mozilla Foundation Expense Report</title>
+<style>
+.xls_rd tr td { /* main CSS rules for table, rows and cells */
+	font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: black;
+}
+.xls_rd .idx { /* rules for index cells */
+	background-color: #EBEBEB;
+	font: bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #6B6B6B;
+	text-align: center;
+	vertical-align: middle;
+}
+.xls_rd .xls_int { /* rules for integer numbers */
+	text-align: right;
+}
+.xls_rd .xls_dbl { /* rules for float numbers */
+	text-align: right;
+}
+</style>
+<table border=1 cellpadding=2 cellspacing=0 class="xls_rd" id="xls_rd" bgcolor="white">
+<tr>
+<td class=idx>&nbsp;</td><td class=idx>&nbsp;A&nbsp;</td><td class=idx>&nbsp;B&nbsp;</td><td class=idx>&nbsp;C&nbsp;</td><td class=idx>&nbsp;D&nbsp;</td><td class=idx>&nbsp;E&nbsp;</td><td class=idx>&nbsp;F&nbsp;</td><td class=idx>&nbsp;G&nbsp;</td></tr>
+<tr>
+<td class=idx>&nbsp;1&nbsp;</td>	<td style="font: bold 14pt  Arial; " bgcolor=#ffff99  valign=top 0 0 >MOZILLA FOUNDATION EXPENSE REPORT</td>
+	<td valign=top 0 1 >&nbsp;</td>
+	<td valign=top 0 2 >&nbsp;</td>
+	<td valign=top 0 3 >&nbsp;</td>
+	<td valign=top 0 4 >&nbsp;</td>
+	<td valign=top 0 5 >&nbsp;</td>
+	<td valign=top 0 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;2&nbsp;</td>	<td valign=top 1 0 >&nbsp;</td>
+	<td valign=top 1 1 >&nbsp;</td>
+	<td valign=top 1 2 >&nbsp;</td>
+	<td valign=top 1 3 >&nbsp;</td>
+	<td valign=top 1 4 >&nbsp;</td>
+	<td valign=top 1 5 >&nbsp;</td>
+	<td valign=top 1 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;3&nbsp;</td>	<td style="font: bold 10pt  Arial; " bgcolor=#ffff99  valign=top 2 0 >NAME:</td>
+	<td valign=top 2 1 >&nbsp;</td>
+	<td valign=top 2 2 >&nbsp;</td>
+	<td valign=top 2 3 >&nbsp;</td>
+	<td valign=top 2 4 >&nbsp;</td>
+	<td valign=top 2 5 >&nbsp;</td>
+	<td valign=top 2 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;4&nbsp;</td>	<td valign=top 3 0 >&nbsp;</td>
+	<td valign=top 3 1 >&nbsp;</td>
+	<td valign=top 3 2 >&nbsp;</td>
+	<td valign=top 3 3 >&nbsp;</td>
+	<td valign=top 3 4 >&nbsp;</td>
+	<td valign=top 3 5 >&nbsp;</td>
+	<td valign=top 3 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;5&nbsp;</td>	<td style="font: bold 10pt  Arial; " bgcolor=#ffff99  valign=top 4 0 >MONTH/YR:</td>
+	<td valign=top 4 1 >&nbsp;</td>
+	<td valign=top 4 2 >&nbsp;</td>
+	<td valign=top 4 3 >&nbsp;</td>
+	<td valign=top 4 4 >&nbsp;</td>
+	<td valign=top 4 5 >&nbsp;</td>
+	<td valign=top 4 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;6&nbsp;</td>	<td valign=top 5 0 >&nbsp;</td>
+	<td valign=top 5 1 >&nbsp;</td>
+	<td valign=top 5 2 >&nbsp;</td>
+	<td valign=top 5 3 >&nbsp;</td>
+	<td valign=top 5 4 >&nbsp;</td>
+	<td valign=top 5 5 >&nbsp;</td>
+	<td valign=top 5 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;7&nbsp;</td>	<td style="font: bold 10pt  Arial; " bgcolor=#ffff99  valign=top 6 0 >PROJECT/EVENT:</td>
+	<td valign=top 6 1 >&nbsp;</td>
+	<td valign=top 6 2 >&nbsp;</td>
+	<td valign=top 6 3 >&nbsp;</td>
+	<td valign=top 6 4 >&nbsp;</td>
+	<td valign=top 6 5 >&nbsp;</td>
+	<td valign=top 6 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;8&nbsp;</td>	<td valign=top 7 0 >&nbsp;</td>
+	<td valign=top 7 1 >&nbsp;</td>
+	<td valign=top 7 2 >&nbsp;</td>
+	<td valign=top 7 3 >&nbsp;</td>
+	<td valign=top 7 4 >&nbsp;</td>
+	<td valign=top 7 5 >&nbsp;</td>
+	<td valign=top 7 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;9&nbsp;</td>	<td valign=top 8 0 >&nbsp;</td>
+	<td valign=top 8 1 >&nbsp;</td>
+	<td valign=top 8 2 >&nbsp;</td>
+	<td valign=top 8 3 >&nbsp;</td>
+	<td valign=top 8 4 >&nbsp;</td>
+	<td valign=top 8 5 >&nbsp;</td>
+	<td valign=top 8 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;10&nbsp;</td>	<td style="font: bold 12pt  Arial; " valign=bottom  colspan=8 >Expense Form Instructions</td>
+</tr><tr>
+<td class=idx>&nbsp;11&nbsp;</td>	<td style="color: #000000; font: normal 10pt  Arial; " align=left valign=middle  colspan=7 >Please fill out expense form completely and indicate currency by the total. Each purchase made should go on its own line and all expenses should be in the same currency.  For items purchased in another currency, use the above space to indicate the exchange rate you used between the two currencies.  For expenses regarding the entertainment of others, describe the reason for the entertainment cost, mention guests and employers, and reference the Item ID # from the table of expenses. Send form and copies of all of your receipts to your manager.</td>
+</tr><tr>
+<td class=idx>&nbsp;12&nbsp;</td>	<td valign=top 11 0 >&nbsp;</td>
+	<td valign=top 11 1 >&nbsp;</td>
+	<td valign=top 11 2 >&nbsp;</td>
+	<td valign=top 11 3 >&nbsp;</td>
+	<td valign=top 11 4 >&nbsp;</td>
+	<td valign=top 11 5 >&nbsp;</td>
+	<td valign=top 11 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;13&nbsp;</td>	<td style="font: bold 10pt  Arial; " align=center valign=top 12 0 >ITEM #</td>
+	<td style="font: bold 10pt  Arial; " align=center valign=top 12 1 >DATE</td>
+	<td style="font: bold 10pt  Arial; " align=center valign=top 12 2 >EXPENSE TYPE</td>
+	<td style="font: bold 10pt  Arial; " align=center valign=top 12 3 >VENDOR NAME</td>
+	<td style="font: bold 10pt  Arial; " align=center valign=top 12 4 >DESCRIPTION</td>
+	<td style="font: bold 10pt  Arial; " align=center valign=bottom 12 5 >CURRENCY AMOUNT</td>
+	<td style="font: bold 10pt  Arial; " align=center valign=top 12 6 >US AMOUNT</td>
+</tr><tr>
+<td class=idx>&nbsp;14&nbsp;</td>	<td align=center valign=top 13 0 >1</td>
+	<td valign=top 13 1 >&nbsp;</td>
+	<td valign=top 13 2 >&nbsp;</td>
+	<td valign=top 13 3 >&nbsp;</td>
+	<td valign=top 13 4 >&nbsp;</td>
+	<td valign=top 13 5 >&nbsp;</td>
+	<td valign=top 13 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;15&nbsp;</td>	<td align=center valign=top 14 0 >2</td>
+	<td valign=top 14 1 >&nbsp;</td>
+	<td valign=top 14 2 >&nbsp;</td>
+	<td valign=top 14 3 >&nbsp;</td>
+	<td valign=top 14 4 >&nbsp;</td>
+	<td valign=top 14 5 >&nbsp;</td>
+	<td valign=top 14 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;16&nbsp;</td>	<td align=center valign=top 15 0 >3</td>
+	<td valign=top 15 1 >&nbsp;</td>
+	<td valign=top 15 2 >&nbsp;</td>
+	<td valign=top 15 3 >&nbsp;</td>
+	<td valign=top 15 4 >&nbsp;</td>
+	<td valign=top 15 5 >&nbsp;</td>
+	<td valign=top 15 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;17&nbsp;</td>	<td align=center valign=top 16 0 >4</td>
+	<td valign=top 16 1 >&nbsp;</td>
+	<td valign=top 16 2 >&nbsp;</td>
+	<td valign=top 16 3 >&nbsp;</td>
+	<td valign=top 16 4 >&nbsp;</td>
+	<td valign=top 16 5 >&nbsp;</td>
+	<td valign=top 16 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;18&nbsp;</td>	<td align=center valign=top 17 0 >5</td>
+	<td valign=top 17 1 >&nbsp;</td>
+	<td valign=top 17 2 >&nbsp;</td>
+	<td valign=top 17 3 >&nbsp;</td>
+	<td valign=top 17 4 >&nbsp;</td>
+	<td valign=top 17 5 >&nbsp;</td>
+	<td valign=top 17 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;19&nbsp;</td>	<td align=center valign=top 18 0 >6</td>
+	<td valign=top 18 1 >&nbsp;</td>
+	<td valign=top 18 2 >&nbsp;</td>
+	<td valign=top 18 3 >&nbsp;</td>
+	<td valign=top 18 4 >&nbsp;</td>
+	<td valign=top 18 5 >&nbsp;</td>
+	<td valign=top 18 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;20&nbsp;</td>	<td align=center valign=top 19 0 >7</td>
+	<td valign=top 19 1 >&nbsp;</td>
+	<td valign=top 19 2 >&nbsp;</td>
+	<td valign=top 19 3 >&nbsp;</td>
+	<td valign=top 19 4 >&nbsp;</td>
+	<td valign=top 19 5 >&nbsp;</td>
+	<td valign=top 19 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;21&nbsp;</td>	<td align=center valign=top 20 0 >8</td>
+	<td valign=top 20 1 >&nbsp;</td>
+	<td valign=top 20 2 >&nbsp;</td>
+	<td valign=top 20 3 >&nbsp;</td>
+	<td valign=top 20 4 >&nbsp;</td>
+	<td valign=top 20 5 >&nbsp;</td>
+	<td valign=top 20 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;22&nbsp;</td>	<td align=center valign=top 21 0 >9</td>
+	<td valign=top 21 1 >&nbsp;</td>
+	<td valign=top 21 2 >&nbsp;</td>
+	<td valign=top 21 3 >&nbsp;</td>
+	<td valign=top 21 4 >&nbsp;</td>
+	<td valign=top 21 5 >&nbsp;</td>
+	<td valign=top 21 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;23&nbsp;</td>	<td align=center valign=top 22 0 >10</td>
+	<td valign=top 22 1 >&nbsp;</td>
+	<td valign=top 22 2 >&nbsp;</td>
+	<td valign=top 22 3 >&nbsp;</td>
+	<td valign=top 22 4 >&nbsp;</td>
+	<td valign=top 22 5 >&nbsp;</td>
+	<td valign=top 22 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;24&nbsp;</td>	<td align=center valign=top 23 0 >11</td>
+	<td valign=top 23 1 >&nbsp;</td>
+	<td valign=top 23 2 >&nbsp;</td>
+	<td valign=top 23 3 >&nbsp;</td>
+	<td valign=top 23 4 >&nbsp;</td>
+	<td valign=top 23 5 >&nbsp;</td>
+	<td valign=top 23 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;25&nbsp;</td>	<td align=center valign=top 24 0 >12</td>
+	<td valign=top 24 1 >&nbsp;</td>
+	<td valign=top 24 2 >&nbsp;</td>
+	<td valign=top 24 3 >&nbsp;</td>
+	<td valign=top 24 4 >&nbsp;</td>
+	<td valign=top 24 5 >&nbsp;</td>
+	<td valign=top 24 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;26&nbsp;</td>	<td align=center valign=top 25 0 >13</td>
+	<td valign=top 25 1 >&nbsp;</td>
+	<td valign=top 25 2 >&nbsp;</td>
+	<td valign=top 25 3 >&nbsp;</td>
+	<td valign=top 25 4 >&nbsp;</td>
+	<td valign=top 25 5 >&nbsp;</td>
+	<td valign=top 25 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;27&nbsp;</td>	<td align=center valign=top 26 0 >14</td>
+	<td valign=top 26 1 >&nbsp;</td>
+	<td valign=top 26 2 >&nbsp;</td>
+	<td valign=top 26 3 >&nbsp;</td>
+	<td valign=top 26 4 >&nbsp;</td>
+	<td valign=top 26 5 >&nbsp;</td>
+	<td valign=top 26 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;28&nbsp;</td>	<td align=center valign=top 27 0 >15</td>
+	<td valign=top 27 1 >&nbsp;</td>
+	<td valign=top 27 2 >&nbsp;</td>
+	<td valign=top 27 3 >&nbsp;</td>
+	<td valign=top 27 4 >&nbsp;</td>
+	<td valign=top 27 5 >&nbsp;</td>
+	<td valign=top 27 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;29&nbsp;</td>	<td valign=top 28 0 >&nbsp;</td>
+	<td valign=top 28 1 >&nbsp;</td>
+	<td valign=top 28 2 >&nbsp;</td>
+	<td valign=top 28 3 >&nbsp;</td>
+	<td valign=top 28 4 >&nbsp;</td>
+	<td valign=top 28 5 >&nbsp;</td>
+	<td valign=top 28 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;30&nbsp;</td>	<td valign=top 29 0 >&nbsp;</td>
+	<td valign=top 29 1 >&nbsp;</td>
+	<td valign=top 29 2 >&nbsp;</td>
+	<td valign=top 29 3 >&nbsp;</td>
+	<td bgcolor=#ffff99  align=right valign=top 29 4 >TOTAL</td>
+	<td bgcolor=#ffff99  align=right valign=top 29 5 >&nbsp;</td>
+	<td bgcolor=#ffff99  valign=top 29 6 >0</td>
+</tr><tr>
+<td class=idx>&nbsp;31&nbsp;</td>	<td valign=top 30 0 >PAYEE INFORMATION:</td>
+	<td valign=top 30 1 >&nbsp;</td>
+	<td valign=top 30 2 >&nbsp;</td>
+	<td valign=top 30 3 >&nbsp;</td>
+	<td valign=top 30 4 >&nbsp;</td>
+	<td valign=top 30 5 >&nbsp;</td>
+	<td valign=top 30 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;32&nbsp;</td>	<td valign=top 31 0 >&nbsp;</td>
+	<td valign=top 31 1 >&nbsp;</td>
+	<td valign=top 31 2 >&nbsp;</td>
+	<td valign=top 31 3 >&nbsp;</td>
+	<td valign=top 31 4 >&nbsp;</td>
+	<td valign=top 31 5 >&nbsp;</td>
+	<td valign=top 31 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;33&nbsp;</td>	<td style="font: bold 12pt  Arial; " bgcolor=#c0c0c0  align=left valign=top 32 0 >Payee Contact Information:</td>
+	<td valign=top 32 1 >&nbsp;</td>
+	<td valign=top 32 2 >&nbsp;</td>
+	<td valign=top 32 3 >&nbsp;</td>
+	<td style="font: bold 12pt  Arial; " bgcolor=#c0c0c0  align=left valign=top 32 4 >Bank Wire Information: (if outside USA)</td>
+	<td valign=top 32 5 >&nbsp;</td>
+	<td valign=top 32 6 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;34&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 33 0 >Organization</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 33 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 33 4 >Bank Name</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;35&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 34 0 >In care of</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 34 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 34 4 >Address</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;36&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 35 0 >Address1</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 35 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 35 4 >City, State/Province</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;37&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 36 0 >Address2</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 36 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 36 4 >Postal Code, Country</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;38&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 37 0 >City</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 37 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 37 4 >Account Number</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;39&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 38 0 >State/Province</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 38 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 38 4 >ABA/Routing number</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;40&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 39 0 >Postal Code</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 39 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 39 4 >Swift Code (for International Banks) </td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;41&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 40 0 >Country</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 40 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 40 4 >Branch number (for Canadian Banks) </td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;42&nbsp;</td>	<td style="font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 41 0 >Telephone</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 41 3 >&nbsp;</td>
+	<td style="color: #000000; font: normal 12pt  Arial; " bgcolor=#ccffcc  align=left valign=top 41 4 >Transit number (for Canadian Banks) </td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;43&nbsp;</td>	<td valign=top 42 0 >&nbsp;</td>
+	<td valign=top 42 1 >&nbsp;</td>
+	<td valign=top 42 2 >&nbsp;</td>
+	<td valign=top 42 3 >&nbsp;</td>
+	<td valign=top 42 4 >&nbsp;</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+</tr><tr>
+<td class=idx>&nbsp;44&nbsp;</td>	<td style="font: bold 12pt  Arial; " bgcolor=#ccffcc  valign=top 43 0 >Approved By :</td>
+	<td valign=top  colspan=2 >&nbsp;</td>
+	<td valign=top 43 3 >&nbsp;</td>
+	<td style="font: bold 12pt  Arial; " bgcolor=#ccffcc  valign=top  rowspan=2  colspan=3 >Signature:_______________________________________________________________</td>
+</tr></table>
