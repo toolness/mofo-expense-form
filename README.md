@@ -6,6 +6,10 @@ manipulation apps.
 Because the webpage was converted from an Excel spreadsheet in the
 first place, the HTML is kind of gross.
 
-See [this line][] for information on how to add your own expenses.
+The JavaScript in `expensify.js` automatically adds up all your expenses,
+numbers them, and generates attachment pages for your receipts, so all
+you have to do is fill out some [table rows][] and print the resulting page.
+View [index.html][] for an example.
 
-  [this line]: https://github.com/toolness/mofo-expense-form/blob/gh-pages/index.html#L156
+  [table rows]: https://github.com/toolness/mofo-expense-form/blob/gh-pages/index.html#L156
+  [index.html]: http://toolness.github.com/mofo-expense-form/
